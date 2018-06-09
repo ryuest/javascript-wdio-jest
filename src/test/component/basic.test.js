@@ -1,9 +1,11 @@
-describe('the test', function () {
+/* global it, describe, browser */
+
+describe('the test', () => {
   it('should run', function () {
     browser.url('http://www.gooogle.com');
 
     var title = browser.getTitle();
-    browser.debug();
+ //   browser.debug();
     console.log(title);
   });
 });
