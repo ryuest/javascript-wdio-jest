@@ -1,4 +1,3 @@
-/* global browser */
 import checkIfElementExists from '../lib/checkIfElementExists';
 
 /**
